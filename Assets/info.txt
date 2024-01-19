@@ -1,0 +1,15 @@
+
+Hope you enjoy your new logo, here are the people that
+made your beautiful logo happen :)
+font name: KaushanScript-Regular
+font link: https://fonts.google.com/specimen/Kaushan+Script
+font author: Impallari Type
+font author site: www.impallari.com
+
+
+
+fontColor: {"gradient-0":"#E8E8EE","gradient-1":"#0808E0"}
+bgColor: {"hex":"#FFFFFF"}
+
+
+      
