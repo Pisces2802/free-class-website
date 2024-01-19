@@ -26,16 +26,16 @@ html {
 .header {
     min-height: 100vh;
     width: 100%;
-    background-color: #86A7FC;
+    background-color: #413F42;
     background-image: url('Assets/herobanner.jpg');
     background-position: center;
     background-size: cover;
-    /* background-blend-mode: multiply; */
-    color: black;
+    background-blend-mode: multiply;
+    color: #fff;
 }
 
 .header__logo--container {
-    flex-basis: 200px;
+    flex-basis: 100px;
 }
 
 .header__logo {
@@ -67,12 +67,11 @@ html {
 
 .header__list--anchor {
     text-decoration: none;
-    color: black;
+    color: white;
     font-family: 'poppins';
 }
 
 .header__list--anchor:hover {
-    color: #183D3D;
     text-decoration: overline #fff;
 }
 
@@ -106,6 +105,7 @@ html {
     letter-spacing: 0.4rem;
     text-align: center;
     font-family: 'poppin';
+    color: white;
 }
 
 .hero__container--text {
@@ -121,7 +121,7 @@ html {
     font-size: 1.2rem;
     padding: 1rem 3rem;
     letter-spacing: 0.3rem;
-    color: black;
+    color: white;
     background-color: transparent;
     transition: 1s ease;
     outline: none;
@@ -365,11 +365,11 @@ html {
     }
 
     .header__logo--container {
-        flex-basis: 100px;
+        flex-basis: 50px;
     }
 
     .hamburger > div {
-        background: black;
+        background: white;
         font-weight: 900;
     }
 

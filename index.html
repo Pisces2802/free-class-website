@@ -19,7 +19,7 @@
         <nav class="header__nav container">
             <!-- <h2>Flicker</h2> -->
             <div class="header__logo--container">
-                <img src="./Assets/cover.png" alt="logo" class="header__logo">
+                <img src="./Assets/logo.png" alt="logo" class="header__logo">
             </div>
 
 <!-- hamburger -->
@@ -153,8 +153,8 @@
 
 <script>
  
+console.log(window.screen.width)
 
- 
  let header = document.getElementById('header__mobile')
 
 
@@ -165,8 +165,13 @@
     }
 
     function hideMenu() {
-       header.style.display = 'none'
-    //    console.log('close')
+        if(window.innerWidth > '700px') {
+            return
+        } else {
+            header.style.display = 'none'
+            console.log('close')
+        }
+
     }
 </script>
 </body>
