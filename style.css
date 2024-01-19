@@ -27,7 +27,7 @@ html {
     min-height: 100vh;
     width: 100%;
     background-color: #413F42;
-    background-image: url('Assets/herobanner.jpg');
+    background-image: url('Assets/newbanner.jpg');
     background-position: center;
     background-size: cover;
     background-blend-mode: multiply;
@@ -79,7 +79,7 @@ html {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1.5rem 1rem;
+    padding: 2rem 1rem;
 
 }
 
