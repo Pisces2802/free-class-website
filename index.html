@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;0,800;0,900;1,200;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+       
+    <link rel="stylesheet" href="style.css">
+    <title>Flickerave University</title>
+</head>
+<body>
+    
+    <!-- header section -->
+    <section class="header">
+        <nav class="header__nav container">
+            <h2>Flicker</h2>
+
+<!-- hamburger -->
+
+            <div class="hamburger" onclick="showMenu()" id="open">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+
+          
+
+            <ul class="header__ul" id="header__mobile">
+                <div class="hamburger__close" onclick="hideMenu()" id="close">
+                    <div>X</div>
+                </div>
+
+                <li><a class="header__list--anchor" href="#courses"  onclick="hideMenu()">Courses</a></li>
+                <li><a class="header__list--anchor" href="#campuses" onclick="hideMenu()">Campus</a></li>
+                <li><a class="header__list--anchor" href="#about"  onclick="hideMenu()">About Us</a></li>
+                <li><a class="header__list--anchor" href="#contact"  onclick="hideMenu()">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div class="container hero__container">
+            <h1 class="hero__container--title">Welcome to <br> FlickeRave University</h1>
+            <p class="hero__container--text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, blanditiis.</p>
+            <button class="hero__btn">Learn More</button>
+        </div>
+    </section>
+
+
+    <!-- courses section -->
+    <section class="container courses" id="courses">
+        <h2 class="courses__title">Courses We Offer</h2>
+        <p class="courses__text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis, esse.</p>
+        <div class="courses__container">
+            <div class="courses__col"><h3>Front End Web</h3> <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam similique eligendi voluptatum dolore ut, distinctio assumenda iusto eaque. Modi, ad.</p><br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, nulla!</p>
+            </div>
+            <div class="courses__col"><h3>Data Analysis</h3> <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit voluptatum ipsum quos a dignissimos? Harum excepturi similique error. Magni, labore!</p><br><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, nulla!</p></div>
+            <div class="courses__col"><h3>Full Stack Web Dev</h3> <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos nobis ad sed a reprehenderit id maiores ipsam repellat corporis aliquam.</p><br><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, nulla!</p></div>
+        </div>
+        
+    </section>
+
+    <!-- campus section -->
+
+    <section class="container campus" id="campuses">
+        <h2 class="campus__title">Our Global Campuses</h2>
+        <p class="campus__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, magnam!</p>
+        <div class="row">
+            <div class="campus__col">
+                <img src="./Assets/newyork.png" alt="london">
+                <div class="campus__col--layer">
+                    <h3>NEW YORK</h3>
+                </div>
+            </div>
+
+            <div class="campus__col">
+                <img src="./Assets/london.png" alt="london">
+                <div class="campus__col--layer">
+                    <h3>LONDON</h3>
+                </div>
+            </div>
+
+            <div class="campus__col">
+                <img src="./Assets/washington.png" alt="london">
+                <div class="campus__col--layer">
+                    <h3>WASHINGTON</h3>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- about us -->
+    <section class="container about" id="about">
+            <h2 class="about__title">About us</h2>
+
+        <div class="about__image--container">
+            <img src="Assets/about.jpg" alt="about">
+            <div class="about__img--overlay"></div>
+        </div>
+        
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore tempora blanditiis vero veritatis quae atque corporis eveniet accusantium laboriosam rem, perspiciatis sit commodi minima corrupti ea magni adipisci quos necessitatibus, cum qui. Ut quo perferendis velit obcaecati? In totam amet dolore quasi est ex. Error officiis modi quaerat soluta iusto?</p><br>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, aliquam. Recusandae quam soluta explicabo enim sed facere eligendi fugit distinctio excepturi error iste, earum adipisci! Ex vel, eius aspernatur autem veniam modi quod itaque est in quasi eligendi nobis fuga voluptatibus doloremque officiis delectus minima magnam excepturi molestias hic mollitia.</p><br>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet ipsa sunt culpa dolores aliquam quibusdam tempore! Porro, deleniti. Officia fugiat veritatis eos quis tempore error reiciendis pariatur impedit dicta recusandae ab molestias quibusdam, sequi voluptas! Officia voluptas tempora impedit doloribus nesciunt odio sed a omnis. Ipsa mollitia error beatae tenetur!</p>
+    </section>
+
+ <!-- contacts -->
+
+ <section class="contacts container" id="contact">
+    <h2 class="contact__title">Contact</h2>
+        <form action="" class="contact__form">
+            <input  class="contact_input" type="email" required placeholder="email">
+            <input  class="contact_input"type="text" required placeholder="title">
+            <textarea class="contact_input" rows="10" placeholder="message" required></textarea>
+        </form>
+        <button class="hero__btn btn">Submit</button>
+ </section>
+
+<!-- footer -->
+<section class="footer">
+    <div class="container">
+        <div class="footer__container">
+            <div class="footer__container--col">
+                <div>
+                    <h4 class="footer__heading">Project</h4>
+                    <p>Lorem, ipsum.</p>
+                    <p>Lorem, ipsum.</p>
+                    <p>Lorem, ipsum.</p>
+                </div>
+                <div class="footer-sec-col">
+                    <h4 class="footer__heading">Community</h4>
+                    <p>Lorem, ipsum.</p>
+                    <p>Lorem, ipsum.</p>
+                    <p>Lorem, ipsum.</p>
+                </div>
+            </div>
+            <div class="footer__container--col">
+                <h3 class="footer__heading">Lorem ipsum dolor sit amet.</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora voluptatum, corrupti fuga recusandae saepe qui quidem similique nobis magnam optio.</p>
+                <p class="footer__container--last">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui optio facere labore quos molestiae illum suscipit nostrum ratione, iusto exercitationem.</p>
+            
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<script>
+ 
+ let open = document.getElementById('open')
+ let close = document.getElementById('close')
+ let header = document.getElementById('header__mobile')
+ let mobileLi = document.getElementById('mobile__li')
+
+    function showMenu() {
+        header.style.display = 'flex'
+        header.style.right = '0'
+        // console.log('open', open)
+    }
+
+    function hideMenu() {
+       header.style.display = 'none'
+    //    console.log('close')
+    }
+</script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
