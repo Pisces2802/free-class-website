@@ -71,6 +71,11 @@ html {
     font-family: 'poppins';
 }
 
+.header__list--anchor:hover {
+    color: #183D3D;
+    text-decoration: overline #fff;
+}
+
 .header__nav {
     display: flex;
     justify-content: space-between;
@@ -358,6 +363,10 @@ html {
            
     }
 
+    .header__logo--container {
+        flex-basis: 100px;
+    }
+
     .hamburger > div {
         background: black;
         font-weight: 900;
@@ -390,6 +399,7 @@ html {
 
     .header__list--anchor {
         color: white;
+        
     }
 .hero__container {
     margin-top: 35%;
